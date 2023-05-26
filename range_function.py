@@ -11,3 +11,9 @@ for i in range(1,10,1):
 
 for i in range(7,0,-1):
   print(i)
+  
+flavors = ["berry", "mint", "lemon"]
+
+# forloop to iterate over the indices of the flavors list using the range() function
+for i in range(len(flavors)):
+  print(flavors[i])

@@ -10,7 +10,7 @@ def generation(year): # define the function
     return ("You are generation Z")
   elif year > 1981 and year < 1996:
     return ("You are generation Millennials")
-  elif year > 1965 and year < 1980:
+  elif year > 1965 and year <= 1980:
     return ("You are generation X")
   else:
     return ("You are not from this universe")
