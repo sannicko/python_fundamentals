@@ -26,4 +26,4 @@ def is_palindrome(word):
 word = input ("Please type a palindrome word:")
 print( is_palindrome(word))
   
-    
+  
